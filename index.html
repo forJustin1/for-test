@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Calendar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="calendar-container">
+		<header class="calendar-header">
+			<p class="calendar-current-date"></p>
+			<div class="calendar-navigation">
+				<span id="calendar-prev" class="material-symbols-rounded">chevron_left</span>
+				<span id="calendar-next" class="material-symbols-rounded">chevron_right</span>
+			</div>
+		</header>
+		<div class="calendar-body">
+			<ul class="calendar-weekdays"></ul>
+			<ul class="calendar-dates"></ul>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
